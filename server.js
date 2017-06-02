@@ -21,7 +21,7 @@ app.use((req,res,next) => {
     console.log(log);
     next();
 });
-
+// un comment for maintenance mode
 // app.use((req,res,next) => {
 //     res.render('maintenance.hbs');
 // });
